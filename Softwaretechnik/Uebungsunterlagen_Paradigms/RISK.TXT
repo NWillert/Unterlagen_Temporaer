@@ -1,0 +1,21 @@
+goal is risk 
+
+legalanswers are yes no * 
+
+if rain is yes then slipping.danger is yes 
+
+if rain is no then slipping.danger is no
+
+if slipping.danger is yes and opposing.traffic is yes then risk is high 
+
+if slipping.danger is yes and opposing.traffic is no then risk is medium 
+
+if slipping.danger is no and opposing.traffic is yes then risk is medium 
+
+if slipping.danger is no and opposing.traffic is no then risk is low 
+
+question rain is "Does it rain?  yes/no" 
+
+question opposing.traffic is "Is there opposing traffic? yes/no" 
+
+answer is "Risk is " risk 
